@@ -1,5 +1,5 @@
 REM Set the path to the file or folder you want to delete
-set folderpath=C:\Users\lucas\testenuclear
+set folderpath=C:\Users
 
 if exist "%filepath%" (
     echo File found: %filepath%
