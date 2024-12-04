@@ -46,7 +46,7 @@ def wait_for_command(s):
             return False
     except socket.error as err:
         print(f"Socket error during command execution: {err}")
-        return True  # Indicate that the socket has "died"
+        return True  
 
 def main():
     ip_address = "192.168.18.5"
