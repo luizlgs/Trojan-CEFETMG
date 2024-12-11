@@ -49,7 +49,7 @@ def wait_for_command(s):
         return True  
 
 def main():
-    ip_address = "172.20.3.230"
+    ip_address = "172.20.3.243"
     port = 25563
 
     while True:
